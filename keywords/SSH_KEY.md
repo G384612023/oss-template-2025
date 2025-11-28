@@ -7,9 +7,10 @@ SSH鍵には秘密鍵と公開鍵があり、2つのペアで使用されるも�
 公開鍵は他人にもわかるように外部サーバーに登録しておき、秘密鍵は絶対に他人にばれてはいけないものである。
 こうすることで秘密鍵を持っている人はサーバーと通信ができるようになる。
 秘密鍵そのものはインターネット上に送出されなく、署名は再利用ができない。また仕組み上秘密鍵を推測して偽造することは非常に難しい。その為パスワード認証よりも盗聴に強く安全性が高い方法であるとして広く使われている。
+開発者・運用者がリモートサーバにログインする時やGitHubなどのソースコード管理などで使われている。
 ## 参考文献
 
-- [Fujitsu Cloud Direct SSH公開鍵認証とは](https://clouddirect.jp.fujitsu.com/service/navi-words-ssh)
+- [Fujitsu Cloud Direct SSH公開鍵認証とは](https://clouddirect.jp.fujitsu.com/cloudnavi/words/ssh.html)
 - [SSHについて調べてみた](https://qiita.com/wonder-boooy/items/7cdbb6b2810a0fc4a5a0)
 
 ## 作成者
